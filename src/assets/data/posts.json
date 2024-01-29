@@ -1,0 +1,183 @@
+{
+  "posts": [
+    {
+      "post_id": "post123",
+      "author": {
+        "username": "user123",
+        "profile_picture_url": "https://example.com/user123.jpg"
+      },
+      "message": "Hello world!",
+      "timestamp": "2024-01-26T12:00:00Z",
+      "reactions": {
+        "like": 20,
+        "love": 5,
+        "lol": 3,
+        "wow": 1,
+        "sad": 0,
+        "angry": 2
+      },
+      "comments": [
+        {
+          "user": {
+            "username": "commenter1",
+            "profile_picture_url": "https://example.com/commenter1.jpg"
+          },
+          "message": "Nice post!",
+          "timestamp": "2024-01-26T12:05:00Z"
+        },
+        {
+          "user": {
+            "username": "commenter2",
+            "profile_picture_url": "https://example.com/commenter2.jpg"
+          },
+          "message": "Keep it up!",
+          "timestamp": "2024-01-26T12:10:00Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post456",
+      "author": {
+        "username": "user456",
+        "profile_picture_url": "https://example.com/user456.jpg"
+      },
+      "message": "Feeling great today!",
+      "timestamp": "2024-01-25T15:30:00Z",
+      "reactions": {
+        "like": 50,
+        "love": 10,
+        "lol": 8,
+        "wow": 4,
+        "sad": 1,
+        "angry": 2
+      },
+      "comments": [
+        {
+          "user": {
+            "username": "commenter3",
+            "profile_picture_url": "https://example.com/commenter3.jpg"
+          },
+          "message": "Amazing!",
+          "timestamp": "2024-01-25T15:35:00Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post789",
+      "author": {
+        "username": "user789",
+        "profile_picture_url": "https://example.com/user789.jpg"
+      },
+      "message": "Just chilling.",
+      "timestamp": "2024-01-24T18:45:00Z",
+      "reactions": {
+        "like": 30,
+        "love": 3,
+        "lol": 2,
+        "wow": 1,
+        "sad": 0,
+        "angry": 0
+      },
+      "comments": []
+    },
+    {
+      "post_id": "post9873",
+      "author": {
+        "username": "user9873",
+        "profile_picture_url": "https://example.com/user9873.jpg"
+      },
+      "message": "Hanging out with friends!",
+      "timestamp": "2024-01-23T20:00:00Z",
+      "reactions": {
+        "like": 40,
+        "love": 8,
+        "lol": 6,
+        "wow": 3,
+        "sad": 1,
+        "angry": 0
+      },
+      "comments": [
+        {
+          "user": {
+            "username": "commenter4",
+            "profile_picture_url": "https://example.com/commenter4.jpg"
+          },
+          "message": "Looks fun!",
+          "timestamp": "2024-01-23T20:10:00Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post987",
+      "author": {
+        "username": "user987",
+        "profile_picture_url": "https://example.com/user987.jpg"
+      },
+      "message": "Hanging out with friends!",
+      "timestamp": "2024-01-23T20:00:00Z",
+      "reactions": {
+        "like": 40,
+        "love": 8,
+        "lol": 6,
+        "wow": 3,
+        "sad": 1,
+        "angry": 0
+      },
+      "comments": [
+        {
+          "user": {
+            "username": "commenter4",
+            "profile_picture_url": "https://example.com/commenter4.jpg"
+          },
+          "message": "Looks fun!",
+          "timestamp": "2024-01-23T20:10:00Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post234",
+      "author": {
+        "username": "user234",
+        "profile_picture_url": "https://example.com/user234.jpg"
+      },
+      "message": "What a beautiful day!",
+      "timestamp": "2024-01-22T10:15:00Z",
+      "reactions": {
+        "like": 60,
+        "love": 15,
+        "lol": 5,
+        "wow": 2,
+        "sad": 0,
+        "angry": 1
+      },
+      "comments": [
+        {
+          "user": {
+            "username": "commenter5",
+            "profile_picture_url": "https://example.com/commenter5.jpg"
+          },
+          "message": "Absolutely!",
+          "timestamp": "2024-01-22T10:20:00Z"
+        }
+      ]
+    },
+    {
+      "post_id": "post567",
+      "author": {
+        "username": "user567",
+        "profile_picture_url": "https://example.com/user567.jpg"
+      },
+      "message": "Just finished a good book!",
+      "timestamp": "2024-01-21T14:20:00Z",
+      "reactions": {
+        "like": 70,
+        "love": 20,
+        "lol": 3,
+        "wow": 1,
+        "sad": 0,
+        "angry": 1
+      },
+      "comments": []
+    }
+  ]
+}
