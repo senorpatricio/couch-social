@@ -113,7 +113,7 @@ This currently only tests the rendering of a few components, but would expand to
 - Theme options
 
 ### Functionality
-- Comments and the ability to comment on a post
+- Ability to comment on a post
 - Function to create posts. 
 - Types of posts (media, location, links, etc)
 - Ability to share posts
