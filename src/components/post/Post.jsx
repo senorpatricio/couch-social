@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
   Card,
   CardActions,
@@ -5,10 +6,11 @@ import {
   Link,
   Typography,
 } from "@mui/material";
-// import { formatTime } from '../../utils/helpers'
+import './Post.css'
 
 export default function Post(postContent) {
   const post = postContent.postContent;
+  const [commentsCollapsed, setCommentsCollapsed] = useState(true);
 
   const getReactions = (incomingPost) => {
     let reactions = [];
@@ -48,10 +50,28 @@ export default function Post(postContent) {
         <Typography variant="h5" component="div">
           {post.message}
         </Typography>
-        <hr />
-        <CardActions
-          sx={{ display: "flex", justifyContent: "space-around" }}
+        <Typography
+          variant="body"
+          component=""
+          className="comment-trigger"
+          onClick={() => setCommentsCollapsed(!commentsCollapsed)}
         >
+          {post.comments.length} Comment{post.comments.length === 1 ? "" : "s"}
+        </Typography>
+
+        {!commentsCollapsed && post.comments.length
+          ? post.comments.map((comment) => {
+              return (
+                <div className="comment-box" key={`${comment.timestamp}-${comment.user.username}`}>
+                  <Typography variant="body">
+                    {comment.user.username}: {comment.message}
+                  </Typography>
+                </div>
+              );
+            })
+          : ""}
+        <hr />
+        <CardActions sx={{ display: "flex", justifyContent: "space-around" }}>
           {reactionsArray.map((reaction) => {
             return (
               <Typography key={reaction.name} component="span">

@@ -6,14 +6,11 @@ A social media app to connect friends, groups of like-minded folks, and generate
 
 ---
 
-## Goals
+## Objectives
 
 - It should have a user centric view where the user can see their profile.
-
 - It should have a screen for listing mock posts from friends and a detail view of the posts.
-
 - It should have placeholders for what good data structures for users and posts and friends.
-
 - Mock API calls and data as needed
 
 ---
@@ -110,6 +107,7 @@ This currently only tests the rendering of a few components, but would expand to
 
 # What I would have done next if there was more time.
 ### UI Design
+- Post Detail page and component
 - Format the reactions with icons and make clickable
 - Add loading indicators to feed and profile page
 - Theme options
@@ -120,5 +118,5 @@ This currently only tests the rendering of a few components, but would expand to
 - Types of posts (media, location, links, etc)
 - Ability to share posts
 - Adding PropTypes to components that receive props to ensure accurate passage of data types
-- Countless other things...
+
 
