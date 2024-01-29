@@ -38,10 +38,10 @@ Open your browser and visit [http://localhost:5173](http://localhost:5173)
 
 ## Overview
 
-1. React JS used to create the application
-2. Material UI used for component library and utilities
-3. Vite used for build and bundling
-4. Vitest used for unit testing
+1. React JS is used to create the application.
+2. Material UI is used for component library and utilities.
+3. Vite is used for build and bundling.
+4. Vitest and React Testing Library are used for unit testing.
 
 ---
 
@@ -62,6 +62,7 @@ Open your browser and visit [http://localhost:5173](http://localhost:5173)
     "following_count": number
 }
 ```
+I created this as a base for a user profile and felt it has the basic needs for a user object.
 
 ### Post
 
@@ -94,20 +95,30 @@ Open your browser and visit [http://localhost:5173](http://localhost:5173)
     ]
 }
 ```
+This post object has all of the basic components of a post to a social media platform.
 
 ---
 
-## What I would have done next if there was more time.
+## Unit Testing
+To run the testing suite, execute the following command in the terminal:
+
+```
+$ npm run test
+```
+
+This currently only tests the rendering of a few components, but would expand to testing the results for user interactions as well.
+
+# What I would have done next if there was more time.
 ### UI Design
 - Format the reactions with icons and make clickable
-- Add comments and a way to comment
 - Add loading indicators to feed and profile page
+- Theme options
 
-### 
+### Functionality
+- Comments and the ability to comment on a post
+- Function to create posts. 
+- Types of posts (media, location, links, etc)
+- Ability to share posts
+- Adding PropTypes to components that receive props to ensure accurate passage of data types
+- Countless other things...
 
-<!-- This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh -->
